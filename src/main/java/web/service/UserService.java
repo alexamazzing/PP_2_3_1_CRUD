@@ -10,7 +10,7 @@ public interface UserService {
 
     void deleteUserById(long id);
 
-    void updateUser(User user);
+    void updateUser(long id, String name, String surname, byte age, String email);
 
     List<User> getAllUsers();
 
